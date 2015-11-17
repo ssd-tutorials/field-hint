@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Html form field hint with jQuery and Css</title>
+	<meta name="description" content="Html form field hint with jQuery and Css">
+	<link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" charset="utf-8">	
+</head>
+<body>
+
+<div id="wrapper">
+
+	<form method="post">
+	
+		<div class="row">
+			<label for="first_name">First name: *</label>
+		</div>
+		
+		<div class="row hint_first_name">
+			<input 
+				type="text" 
+				name="first_name" 
+				id="first_name" 
+				class="field hint focus" 
+				title="Please provide your first name"
+			>
+		</div>
+		
+		<div class="row">
+			<label for="last_name">Last name: *</label>
+		</div>
+		
+		<div class="row hint_last_name">
+			<input 
+				type="text" 
+				name="last_name" 
+				id="last_name" 
+				class="field hint" 
+				title="Please provide your last name"
+			>
+		</div>
+		
+		<div class="row">
+			<label for="email">Email address: *</label>
+		</div>
+		
+		<div class="row hint_email">
+			<input 
+				type="email" 
+				name="email" 
+				id="email" 
+				class="field hint" 
+				title="Please provide your valid email address"
+			>
+		</div>
+		
+		<div class="row">
+			<label for="telephone">Telephone: *</label>
+		</div>
+		
+		<div class="row hint_telephone">
+			<input 
+				type="text" 
+				name="telephone" 
+				id="telephone" 
+				class="field hint" 
+				title="Please provide your telephone number"
+			>
+		</div>
+		
+		<div class="row">
+			<label for="enquiry">Enquiry: *</label>
+		</div>
+		
+		<div class="row hint_enquiry">
+			<textarea  
+				name="enquiry" 
+				id="enquiry" 
+				class="area hint" 
+				title="Please provide your enquiry"
+			></textarea>
+		</div>
+	
+	</form>
+
+</div>
+	
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="/js/core.js"></script>
+</body>
+</html>
